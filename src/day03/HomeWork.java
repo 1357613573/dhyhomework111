@@ -14,13 +14,13 @@ public class HomeWork {
         }
     }
     public static void sum(){
-        int sum=2;
+        int sum=2;//2是质数，比较特殊，所以以2开始计数
 
         for(int i=2;i<=100;i++){
             for(int j=2;j<i;j++){
-                if(i%j == 0 && i!=2){
+                if(i%j == 0 && i!=2){ //若余数为0，则i为合数，直接跳出此循环
                     break;
-                }else if(j+1==i){
+                }else if(j+1==i){  //此时已经挨个判断完i可能存在的约数；
                     sum+=i;
                 }
             }
