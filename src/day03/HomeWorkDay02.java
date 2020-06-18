@@ -73,7 +73,7 @@ public class HomeWorkDay02 {
 
         int []a=arrange(arr,arr1);
 
-        System.out.println(Arrays.toString(a));
+        System.out.println("交替遍历数组"+Arrays.toString(a));
 
 
     }
